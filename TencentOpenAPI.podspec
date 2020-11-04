@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary             = "Tencent Open API SDK for iOS."
   s.license             = "MIT"
   s.author              = { "OpenQQ" => "opensupport@qq.com" }
-  s.platform            = :ios
+  s.platform            = :ios, "9.0"
   s.requires_arc        = true
   s.source              = { :git=> "https://github.com/Openmingyuers/TencentOpenAPI.git", :tag => "#{s.version}" }
   s.xcconfig            = { "FRAMEWORK_SEARCH_PATHS" => "$(inherited)" }
